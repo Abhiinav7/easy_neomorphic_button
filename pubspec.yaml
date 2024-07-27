@@ -1,0 +1,26 @@
+name: neomorphic_button
+description: A Neomorphic button widget for Flutter.
+version: 0.0.1
+homepage: https://github.com/yourusername/neomorphic_button
+repository: https://github.com/yourusername/neomorphic_button
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inset_box_shadow: ^1.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.yourcompany.neomorphic_button
+        pluginClass: NeomorphicButtonPlugin
+      ios:
+        pluginClass: NeomorphicButtonPlugin
